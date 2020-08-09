@@ -1,0 +1,10 @@
+{
+  "appId": "com.example.app",
+  "appName": "protese",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "server": {
+    "url": "http://localhost:3000"
+  }
+}
