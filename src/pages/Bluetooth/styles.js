@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background-color: #30444e;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
   overflow: hidden;
   height: 100vh;
   width: 100vw;
@@ -24,18 +28,18 @@ export const ArrowButton = styled.button`
   margin-top: 20px;
   font-size: 180%;
 `;
+
 export const DevicesContainer = styled.div`
   display: flex;
-  flex: 1;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  background-color: #438fd1;
-  border-radius: 10px;
+  border-radius: 40px;
   border: 1;
   border-style: solid;
-  border-color: #438fd1;
-  padding: 0 15px;
+  border-color: #ccc1;
+  padding-bottom: 30px; 
+  width: 60vw;
   height: 60vh;
   margin-top: 50px;
   background: #dfe2e4;
@@ -46,13 +50,16 @@ export const SearchButton = styled.button`
   color: #000;
   background: transparent;
   border: 0;
-  flex:1;
-  margin-left: 10px;
-  margin-top: 20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-size: 180%;
-  margin: 0 auto;
-  background-color:#438fd1; 
-  h6 {
+  opacity: 40%;
+  h3 {
+    margin-top: 10px;
+    font-family: Muli;
+    font-size: 50%;
   }
 `;
 

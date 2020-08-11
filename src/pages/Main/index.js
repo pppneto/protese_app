@@ -17,7 +17,7 @@ function Main() {
         <Header>
 
           <Link to="/bluetooth">
-            <ButtonBluetooth type = "button" onClick = {() => console.log('teste')}>
+            <ButtonBluetooth >
               <FaBluetoothB />
               <h1>Conectar-se</h1>
             </ButtonBluetooth>
